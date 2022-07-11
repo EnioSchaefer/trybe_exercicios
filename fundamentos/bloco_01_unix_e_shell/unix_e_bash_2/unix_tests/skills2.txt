@@ -1,0 +1,9 @@
+Internet
+Unix
+Bash
+Javascript
+Css
+Html
+Next.js
+C#
+React

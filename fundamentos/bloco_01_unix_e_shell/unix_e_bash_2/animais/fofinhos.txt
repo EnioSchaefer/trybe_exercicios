@@ -1,0 +1,4 @@
+gato
+cachorro
+coelho
+hamster
