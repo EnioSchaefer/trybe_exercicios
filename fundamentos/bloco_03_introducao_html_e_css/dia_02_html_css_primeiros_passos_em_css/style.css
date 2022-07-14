@@ -1,0 +1,32 @@
+h1 {
+    font-family: sans-serif;
+    font: 65px;
+    color: orange;
+}
+
+ul {
+    background-color: bisque;
+}
+
+.color_change01 {
+    background-color: blueviolet;
+}
+
+p {
+    font-weight: 600;
+    font-size: 3en;
+}
+
+body {
+    font-size: 16px;
+}
+
+#yellow_list {
+    background-color: yellow;
+}
+#red_list {
+    background-color: red;
+}
+#brown_list {
+    background-color: brown;
+}
