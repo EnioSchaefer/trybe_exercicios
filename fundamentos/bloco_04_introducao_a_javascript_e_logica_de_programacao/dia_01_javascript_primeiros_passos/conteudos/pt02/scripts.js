@@ -1,0 +1,27 @@
+// let patientId = 50;
+// let isEnrolled = true;
+// const patientInfo = {
+//   firstName: 'Ana',
+//   lastName: 'Santos',
+// };
+// const patientEmail = 'ana@email.com';
+
+// console.log(typeof patientAge);
+
+// patientId = '50';
+
+// console.log(typeof patientId);
+
+const base = 5;
+let height = 8;
+
+console.log(base);
+console.log(height);
+
+const area = base * height;
+
+console.log(area);
+
+const perimeter = base + height + area;
+
+console.log(perimeter);
