@@ -1,0 +1,34 @@
+<body>
+    <main id="paiDoPai">
+        <section id="pai">
+            <section id="primeiroFilho"></section>
+            <section id="elementoOndeVoceEsta">
+                <section id="primeiroFilhoDoFilho"></section>
+                <section id="segundoEUltimoFilhoDoFilho"></section>
+            </section>
+            Atenção!
+            <section id="terceiroFilho"></section>
+            <section id="quartoEUltimoFilho"></section>
+        </section>
+        <script>
+            // PARTE 01 - Buscando Elementos \\
+            document.getElementById("elementoOndeVoceEsta").parentElement.style.color = 'red';
+            document.getElementById("primeiroFilhoDoFilho").innerHTML = "Primeiro Filho do Filho";
+            document.getElementById("pai").firstElementChild;
+            document.getElementById("elementoOndeVoceEsta").previousElementSibling;
+            document.getElementById("elementoOndeVoceEsta").nextSibling;
+            document.getElementById("elementoOndeVoceEsta").nextElementSibling;
+            document.getElementById("pai").lastElementChild.previousElementSibling;
+            // PARTE 02 - Criando Elementos \\
+            document.getElementById("pai").appendChild(document.createElement("section")); 
+            document.getElementById("elementoOndeVoceEsta").appendChild(document.createElement("section")); 
+            document.getElementById("primeiroFilhoDoFilho").appendChild(document.createElement("section"));
+            document.getElementById("primeiroFilhoDoFilho").lastElementChild.parentElement.parentElement.nextElementSibling;
+            // PARTE 03 - Removendo Elementos \\
+            document.getElementById("paiDoPai").firstElementChild.removeChild(document.getElementById("primeiroFilho"));
+            document.getElementById("paiDoPai").firstElementChild.removeChild(document.getElementById("terceiroFilho"));
+            document.getElementById("paiDoPai").firstElementChild.removeChild(document.getElementById("quartoEUltimoFilho"));
+            document.getElementById("elementoOndeVoceEsta").removeChild(document.getElementById("segundoEUltimoFilhoDoFilho"));
+        </script>
+    </main>
+</body>
