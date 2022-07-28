@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+        let numbers = ["um", "dois", "tres", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez"];
+        const body = document.getElementsByTagName("body")[0];
+        body.appendChild(document.createElement("h1")).innerText = "Exercício 5.2 - JavaScript DOM";
+        body.appendChild(document.createElement("main")).className = "main-content";
+        const main = document.getElementsByClassName("main-content")[0];
+        main.appendChild(document.createElement("section")).className = "center-content";
+        document.getElementsByClassName("center-content")[0].appendChild(document.createElement("p")).innerText = "Algum Texto";
+        main.appendChild(document.createElement("section")).className= "left-content";
+        main.appendChild(document.createElement("section")).className= "right-content";
+        document.getElementsByClassName("left-content")[0].appendChild(document.createElement("img")).className = "small-image";
+        document.getElementsByClassName("small-image")[0].src = "https://picsum.photos/200";
+        document.getElementsByClassName("right-content")[0].appendChild(document.createElement('ul')).className = "unList";
+
+        for (index = 0; index < numbers.length; index += 1) {
+            let listaUl =  document.getElementsByClassName("unList")[0];
+            listaUl.appendChild(document.createElement('li'));
+            document.getElementsByTagName('li')[index].innerText = numbers[index];
+        }
+
+        let h3Tags = 3;
+        for (let index2 = 0; index2 < h3Tags; index2 += 1) {
+            main.appendChild(document.createElement("h3")).className = "description";
+        }
+
+        document.getElementsByTagName("h1")[0].className = "title";
+        document.getElementsByClassName("main-content")[0].removeChild(document.getElementsByClassName("left-content")[0]);
+        document.getElementsByClassName("right-content")[0].style.marginRight = "auto";
+        document.getElementsByClassName("center-content")[0].style.backgroundColor = "green";
+        document.getElementsByTagName("li")[numbers.length - 1].remove();
+        document.getElementsByTagName("li")[numbers.length - 2].remove();
+    </script>
+  </body>
+</html>
