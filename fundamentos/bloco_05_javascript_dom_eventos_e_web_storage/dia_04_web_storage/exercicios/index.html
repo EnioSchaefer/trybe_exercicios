@@ -7,8 +7,64 @@
     <title>Exercicio / 5.4</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-    <header id="header-main">Header Aleatorio</header>
+<body id="body">
+    <div id="header-main-container">
+        <header id="header-main"><h1>Header Aleatorio</h1></header>
+    </div>
+
+    <nav id="modify-page-buttons">
+    <input type="color" name="background-input" id="color-input-01"> Pick a Background Color!</input><br>
+    <input type="color" name="font-color-input" id="color-input-02"> Pick a Font Color!</input><br>
+    <input type="range" name="font-size-input" id="font-size-input" min="12" max="35"> Pick a Font Size!</input>
+    <input type="range" name="font-spacing-input" id="font-spacing-input" min="12" max="50"> Pick a Font Spacing!</input>
+    <select name="font-family-select" id="font-family-select" placeholder="Pick a Font Family!">
+        <option value="arial">Arial (sans-serif)</option>
+        <option value="times new Roman">Times New Roman (serif)</option>
+        <option value="courier">Courier New (monospace)</option>
+    </select>
+    
+
+    <main>
+        <article class="paragraph-first paragraph-left">
+            <p>Quisque eget ligula id nisl rhoncus cursus non quis augue. 
+                Nulla ut malesuada metus. Phasellus quam tellus, 
+                lacinia vitae neque eu, semper gravida neque. Nulla facilisi. 
+                Nulla dapibus venenatis leo, id cursus neque porttitor a. 
+                Fusce vulputate vehicula urna eget fermentum. 
+                Pellentesque commodo facilisis massa, at hendrerit massa consectetur ut. 
+                Morbi tempor id lectus et viverra. Fusce a ullamcorper lectus, 
+                quis auctor sem. Suspendisse eget pharetra massa.</p>
+        </article>
+
+        <article class="paragraph-second paragraph-left">
+            <p>Donec fringilla ullamcorper lobortis. Nam ullamcorper nunc odio, 
+                vitae sollicitudin sem porttitor eget. Nulla non tortor elit. 
+                Nullam in libero pulvinar, luctus est semper, pharetra eros. 
+                Sed eu tortor auctor, gravida urna id, tincidunt dolor. 
+                Donec vitae mollis lectus, eu iaculis dui. Aenean at urna non 
+                ante lobortis finibus. Praesent faucibus massa vel lectus egestas, 
+                id vehicula eros fringilla. Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit. Aenean vestibulum nunc purus, 
+                sed congue metus viverra quis. Nam molestie maximus orci vitae 
+                pulvinar. Duis pharetra lacus vitae varius tempor. 
+                Cras interdum sodales felis, et vehicula ipsum tincidunt vel.</p>
+        </article>
+
+        <article class="paragraph-third paragraph-left">
+            <p>Donec fringilla ullamcorper lobortis. Nam ullamcorper nunc odio, 
+                vitae sollicitudin sem porttitor eget. Nulla non tortor elit. 
+                Nullam in libero pulvinar, luctus est semper, pharetra eros. 
+                Sed eu tortor auctor, gravida urna id, tincidunt dolor. 
+                Donec vitae mollis lectus, eu iaculis dui. Aenean at urna non 
+                ante lobortis finibus. Praesent faucibus massa vel lectus egestas, 
+                id vehicula eros fringilla. Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit. Aenean vestibulum nunc purus, 
+                sed congue metus viverra quis. Nam molestie maximus orci vitae 
+                pulvinar. Duis pharetra lacus vitae varius tempor. 
+                Cras interdum sodales felis, et vehicula ipsum tincidunt vel.</p>
+        </article>
+    </main>
+
     <script src="script.js"></script>
 </body>
 </html>

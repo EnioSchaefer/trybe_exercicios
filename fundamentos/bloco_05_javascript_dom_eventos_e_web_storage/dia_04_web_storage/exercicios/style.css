@@ -1,3 +1,15 @@
 body {
     background-color: gainsboro;
+    max-width: 960px;
+    margin: auto;
+}
+
+#header-main-container {
+    font-size: 20px;
+    margin: auto;
+}
+
+.paragraph-left {
+    display: flex;
+    max-width: 750px;
 }
