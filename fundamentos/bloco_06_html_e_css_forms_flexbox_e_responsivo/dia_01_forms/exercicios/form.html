@@ -18,33 +18,33 @@
             <div id="form-core">
 
                 <div id="nome-email">
-                    <label for="input-nome">Nome:
-                        <input type="text" name="nome" id="input-nome" required>
+                    <label for="input-nome">Nome Completo:
+                        <input type="text" name="nome" id="input-nome" min="10" max="40" required>
                     </label> <br>
-                    <label for="input-email">Email:
-                        <input type="email" name="email" id="input-email" required>
+                    <label for="input-email">E-mail:
+                        <input type="email" name="email" id="input-email" min="10" max="50" required>
                     </label>
                 </div>
 
                 <div id="radio-options">
                     <label for="radio-01">
-                        <input type="radio" name="input-radio" id="radio-01" required>Opcao1
+                        <input type="radio" name="input-radio" id="radio-01" required>Cidade
                     </label>
                     <label for="radio-02">
-                        <input type="radio" name="input-radio" id="radio-02">Opcao2
+                        <input type="radio" name="input-radio" id="radio-02">Campo
                     </label>
                     <label for="radio-03">
-                        <input type="radio" name="input-radio" id="radio-03">Opcao3
+                        <input type="radio" name="input-radio" id="radio-03">Praia
                     </label>
                     <label for="radio-04">
-                        <input type="radio" name="input-radio" id="radio-04">Opcao4
+                        <input type="radio" name="input-radio" id="radio-04">Montanha
                     </label>
                 </div>
 
                 <div id="text-area-div">
                     <label for="text-area">
-                        <h4>Por que voce deseja participar da TrybeTrip?</h4>
-                        <textarea name="textarea" id="text-area" cols="30" rows="10" required></textarea>
+                        <h4>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</h4>
+                        <textarea name="textarea" id="text-area" cols="30" rows="10" maxlength="500" required></textarea>
                     </label>
                 </div>
 
@@ -53,10 +53,10 @@
                 </label>
 
                 <div id="input-checkbox">
-                    <label for="input-agree-terms-01">Concordo com jooj
+                    <label for="input-agree-terms-01">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
                         <input type="checkbox" name="agreed" id="input-agree-terms-01" required>
                     </label> <br>
-                    <label for="input-agree-terms-02">Concordo com xixna
+                    <label for="input-agree-terms-02">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
                         <input type="checkbox" name="agreed" id="input-agree-terms-02" required>
                     </label>
                 </div>
@@ -123,6 +123,10 @@
             margin-bottom: 15px;
         }
 
+        #input-checkbox label{
+            font-size: 18px;
+        }
+
         #submit-erase {
             margin: 15px;
         }
@@ -131,6 +135,7 @@
             margin-right: 10px;
         }
     </style>
+    <script src="script.js"></script>
 </body>
 
 </html>
