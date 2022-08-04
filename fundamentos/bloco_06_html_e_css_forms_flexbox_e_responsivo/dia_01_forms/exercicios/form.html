@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Concorra a TrybeTrip!</h1>
+    </header>
+
+    <main>
+        <form action="" method="GET">
+            <div id="form-core">
+
+                <div id="nome-email">
+                    <label for="input-nome">Nome:
+                        <input type="text" name="nome" id="input-nome" required>
+                    </label> <br>
+                    <label for="input-email">Email:
+                        <input type="email" name="email" id="input-email" required>
+                    </label>
+                </div>
+
+                <div id="radio-options">
+                    <label for="radio-01">
+                        <input type="radio" name="input-radio" id="radio-01" required>Opcao1
+                    </label>
+                    <label for="radio-02">
+                        <input type="radio" name="input-radio" id="radio-02">Opcao2
+                    </label>
+                    <label for="radio-03">
+                        <input type="radio" name="input-radio" id="radio-03">Opcao3
+                    </label>
+                    <label for="radio-04">
+                        <input type="radio" name="input-radio" id="radio-04">Opcao4
+                    </label>
+                </div>
+
+                <div id="text-area-div">
+                    <label for="text-area">
+                        <h4>Por que voce deseja participar da TrybeTrip?</h4>
+                        <textarea name="textarea" id="text-area" cols="30" rows="10" required></textarea>
+                    </label>
+                </div>
+
+                <label for="input-date">Data:
+                    <input type="date" name="date" id="input-date" required>
+                </label>
+
+                <div id="input-checkbox">
+                    <label for="input-agree-terms-01">Concordo com jooj
+                        <input type="checkbox" name="agreed" id="input-agree-terms-01" required>
+                    </label> <br>
+                    <label for="input-agree-terms-02">Concordo com xixna
+                        <input type="checkbox" name="agreed" id="input-agree-terms-02" required>
+                    </label>
+                </div>
+
+            </div>
+
+            <div id="submit-erase">
+                <label for="submit">
+                    <input type="submit" name="submit" id="submit" value="Enviar">
+                </label>
+                <label for="reset">
+                    <input type="reset" name="erase" id="reset" value="Apagar">
+                </label>
+            </div>
+        </form>
+    </main>
+
+    <style>
+        * {
+            color: rgb(110, 110, 110);
+            font-size: 25px;
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+
+        #form-core {
+            border: 4px solid black;
+            width: fit-content;
+            padding: 15px 150px 15px 15px;
+            padding-left: 25px;
+        }
+
+        #input-nome {
+            margin-bottom: 15px;
+        }
+
+        #nome-email {
+            margin: 10px 0px 20px 0px;
+        }
+
+        #radio-options {
+            margin: 0px 0px 15px 0px;
+        }
+
+        h4 {
+            margin: 0px 0px 10px 0px
+        }
+
+        #text-area {
+            height: 200px;
+            border-width: 2px;
+            margin-bottom: 15px;
+        }
+
+        #input-date {
+            border-width: 2px;
+            padding: 0px;
+            padding-left: 10px;
+            margin-bottom: 15px;
+        }
+
+        #submit-erase {
+            margin: 15px;
+        }
+
+        #submit-erase input {
+            margin-right: 10px;
+        }
+    </style>
+</body>
+
+</html>
