@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+  }
+
+.cabecalho img {
+    width: 45px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.skills-container-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho h3 {
+    color: white;
+}
+
+.cabecalho {
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.under-header-text {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.skills-container {
+    width: 620px;
+    height: 490px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.skills h4{
+    padding-bottom: 10px;
+}
+
+.skills {
+    width: 190px;
+    min-height: 220px;
+    padding: 20px;
+    background-color: rgb(230, 230, 230);
+    border: 0px outset gray;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgb(102, 102, 102);
+}
+
+.skills img{
+    width: 160px;
+    height: 140px;
+}
+
+.media-social-container {
+    width: 190px;
+    display: flex;
+    justify-content: space-evenly;
+    border-style: none;
+    border-top-style: solid;
+    padding-top: 20px;
+}
+
+.media-social-logo {
+    width: 30px;
+}
+
+.media-social-container-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
