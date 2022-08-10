@@ -13,6 +13,7 @@ html {
     body {
         background-color: cornsilk;
     }
+    
     h1, h2 {
         font-size: 38px;
         color: burlywood;
@@ -44,6 +45,7 @@ html {
     body {
         background-color: rgb(12, 12, 12);
     }
+
     h1, h2 {
         font-size: 45px;
         color: rgb(128, 3, 145);
@@ -74,5 +76,47 @@ html {
         font-weight: 900;
         text-align: center;
         border-style: solid;
+    }
+  }
+
+  /* LAYOUT GRANDE */
+
+  @media screen and (min-width: 1081px) {
+    body {
+        background-color: rgb(255,113,206);
+    }
+
+    h1, h2 {
+        font-size: 45px;
+        color: rgb(5,255,161);
+        font-style: italic;
+        border-style: double;
+        border-width: 7px;
+    }
+
+    ul li {
+        font-style: oblique;
+        color: rgb(135, 58, 202);
+    }
+
+    ul:nth-child(1) {
+        display: flex;
+        font-size: 30px;
+        justify-content: space-evenly;
+        list-style-type: none;
+        line-height: 45px;
+    }
+
+    p {
+        color: rgb(255,251,150);
+    }
+
+    p:nth-child(1) {
+        color: rgb(1,205,254);
+        margin-top: 10px;
+        font-size: 65px;
+        font-weight: 900;
+        text-align: center;
+        border-style: double;
     }
   }
