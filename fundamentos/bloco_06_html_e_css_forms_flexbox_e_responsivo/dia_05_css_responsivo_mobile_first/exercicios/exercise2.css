@@ -1,7 +1,39 @@
 html {
     box-sizing: border-box;
+    margin: 10px;
   }
   
   *, *:before, *:after {
     box-sizing: inherit;
+  }
+
+  /* LAYOUT PEQUENO */
+
+  @media screen and (max-width: 425px) {
+    body {
+        background-color: cornsilk;
+
+    }
+    h1, h2 {
+        font-size: 38px;
+        color: burlywood;
+        font-style: italic;
+    }
+
+    ul li {
+        font-style: oblique;
+        color: rgb(63, 50, 33);
+    }
+
+    ul:nth-child(1) {
+        text-align: center;
+        list-style-type: none;
+        line-height: 30px;
+    }
+
+    p:nth-child(1) {
+        font-size: xx-large;
+        font-weight: 900;
+        text-align: center;
+    }
   }
