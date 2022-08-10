@@ -12,7 +12,6 @@ html {
   @media screen and (max-width: 425px) {
     body {
         background-color: cornsilk;
-
     }
     h1, h2 {
         font-size: 38px;
@@ -35,5 +34,45 @@ html {
         font-size: xx-large;
         font-weight: 900;
         text-align: center;
+        border-style: dashed;
+    }
+  }
+
+  /* LAYOUT MEDIO */
+
+  @media screen and (min-width: 426px) {
+    body {
+        background-color: rgb(12, 12, 12);
+    }
+    h1, h2 {
+        font-size: 45px;
+        color: rgb(128, 3, 145);
+        font-style: italic;
+    }
+
+    ul li {
+        font-style: oblique;
+        color: rgb(58, 27, 87);
+    }
+
+    ul:nth-child(1) {
+        display: flex;
+        font-size: 30px;
+        justify-content: space-evenly;
+        list-style-type: none;
+        line-height: 45px;
+    }
+
+    p {
+        color: blueviolet;
+    }
+
+    p:nth-child(1) {
+        color: rgb(8, 0, 31);
+        margin-top: 10px;
+        font-size: 65px;
+        font-weight: 900;
+        text-align: center;
+        border-style: solid;
     }
   }
