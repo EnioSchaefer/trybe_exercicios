@@ -69,18 +69,18 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [X] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
 - [X] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [ ] 8-5: _[Projeto - Zoo functions]()_
+- [X] 8-5: _[Projeto - Zoo functions]()_
 
 ##### Bloco 9: Assincronicidade & Callbacks
 
-- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
-- [ ] 9-2: _JavaScript Promises_
+- [X] 9-1: _JavaScript Assíncrono e Callbacks_
+- [X] 9-2: _JavaScript Promises_
 - [ ] 9-3: _[Projeto - Carrinho de Compras]()_
 
 ##### Bloco 10: Jest
 
 - [ ] 10-1: _Primeiros passos no Jest_
-- [ ] 10-2: _Jest - Testes Assí­ncronos_
+- [ ] 10-2: _Jest - Testes Assíncronos_
 - [ ] 10-3: _Jest - Simulando comportamentos_
 - [ ] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_
 
@@ -146,7 +146,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [ ] 20-1: _Banco de dados SQL_
 - [ ] 20-2: _Encontrando dados em um banco de dados_
-- [ ] 20-3: _Filtrando dados de forma especí­fica_
+- [ ] 20-3: _Filtrando dados de forma específica_
 - [ ] 20-4: _Manipulando tabelas_
 - [ ] 20-5: _[Projeto - All For One]()_
 
@@ -220,7 +220,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 32: Arquitetura de Software
 
-- [ ] 32-1: _Arquitetura - Princí­pios SOLID_
+- [ ] 32-1: _Arquitetura - Princípios SOLID_
 - [ ] 32-2: _ORM - Interface da aplicação com o banco de dados_
 - [ ] 32-3: _Arquitetura de Software - DDD_
 - [ ] 32-4: _Boas práticas na escrita de testes_
@@ -249,7 +249,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [ ] 35-1: _Aprendendo Python_
 - [ ] 35-2: _Testes e Exceções_
-- [ ] 35-3: _Entrada e Saí­da de dados_
+- [ ] 35-3: _Entrada e Saída de dados_
 - [ ] 36-4: _Entrada e Saída de dados_
 - [ ] 35-5: _[Projeto - Tech news]()_
 
